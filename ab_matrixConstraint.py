@@ -13,10 +13,7 @@ def maya_useNewAPI():
 class MatrixConstraintNode(apiOM.MPxNode):
 
     plugin_name = "matrixConstraint"
-
-    # plugin ID is placeholder for testing and developing purpose
-    # not recommended to use it
-    plugin_id = apiOM.MTypeId(0x00000000)
+    plugin_id = apiOM.MTypeId(0x13cd80)
 
     # inputs
     input_use_offset_attr = apiOM.MObject()
